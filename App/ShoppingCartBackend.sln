@@ -52,6 +52,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.BLL", "App.BLL\App.BLL.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationTests", "ApplicationTests\ApplicationTests.csproj", "{5F8CFFEC-39C6-4BE4-8891-D2F83605E0CD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{B41A9F74-8254-4B83-B4BE-9F1FA69D6AA6}"
+	ProjectSection(SolutionItems) = preProject
+		..\docs\swagger-endpoints.png = ..\docs\swagger-endpoints.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -146,5 +151,6 @@ Global
 		{7A793BC4-7258-49DB-AB5D-41D8E66A934E} = {23E7CA85-384A-4722-B3FB-76E080F20C69}
 		{89BF9252-D0F2-4BCF-8CF3-1FBB9939161E} = {93831284-94E2-416F-BB3B-84A43C18A4B8}
 		{5F8CFFEC-39C6-4BE4-8891-D2F83605E0CD} = {93831284-94E2-416F-BB3B-84A43C18A4B8}
+		{B41A9F74-8254-4B83-B4BE-9F1FA69D6AA6} = {0BCD0117-711B-469A-B263-3E69E3861CBF}
 	EndGlobalSection
 EndGlobal

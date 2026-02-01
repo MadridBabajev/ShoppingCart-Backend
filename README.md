@@ -61,6 +61,8 @@ The easiest way to run the project:
 docker-compose up --build
 ```
 
+Go to `App.DAL/Seeding/AppDataInit.cs` line 73 to view seeded users and authorize faster.
+
 The API will be available at `http://localhost:8000`.
 
 ### Local Setup

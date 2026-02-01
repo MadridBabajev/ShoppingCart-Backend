@@ -16,7 +16,7 @@ dotnet-ef --version # Check whether the Entity Framework Core .NET Command-line 
 
 ## 3. Create an initial migration
 ~~~bash
-dotnet ef migrations add InitialCreate --project App.DAL --startup-project WebApp  
+dotnet ef migrations add InitialCreate --project App.DAL --startup-project WebApp
 # Picks a project, where dbcontext is located, also specifies the startup project
 ~~~
 

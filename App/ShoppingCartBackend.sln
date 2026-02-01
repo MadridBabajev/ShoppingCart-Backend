@@ -4,12 +4,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{0BCD0117-711B-469A-B263-3E69E3861CBF}"
 	ProjectSection(SolutionItems) = preProject
-		.gitignore = .gitignore
 		global.json = global.json
 		docker-compose.yml = docker-compose.yml
-		..\..\README.md = ..\..\README.md
 		Dockerfile = Dockerfile
 		.dockerignore = .dockerignore
+		..\README.md = ..\README.md
+		..\.gitignore = ..\.gitignore
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APP", "APP", "{93831284-94E2-416F-BB3B-84A43C18A4B8}"

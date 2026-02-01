@@ -230,11 +230,11 @@ public class AccountController : ControllerBase
         }
 
         // Validate token against secret key, issuer, and audience
-        // if (!IdentityHelpers.ValidateToken(refreshTokenModel.Jwt, _configuration["JWT:Key"]!,
-        //     _configuration["JWT:Issuer"]!, _configuration["JWT:Audience"]!))
-        // {
-        //     return FormatErrorResponse("JWT validation failed");
-        // }
+        if (!IdentityHelpers.ValidateToken(refreshTokenModel.Jwt, _configuration["JWT:Key"]!,
+            _configuration["JWT:Issuer"]!, _configuration["JWT:Audience"]!))
+        {
+            return FormatErrorResponse("JWT validation failed");
+        }
 
         // Extract user email from JWT and fetch the user
         var userEmail = jwtToken.Claims.FirstOrDefault(x => x.Type == ClaimTypes.Email)?.Value;
